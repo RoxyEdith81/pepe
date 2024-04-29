@@ -1,0 +1,25 @@
+*{
+   /*reseteo de valores*/
+   .colorPrimario{
+    background-color: rgb (31,39,31);
+   }
+}
+.colorSecundario{
+    background-color: rgb(159,54,71);
+}
+.colorFuente{
+    color: aliceblue;
+}
+.tituloPrincipal{
+    font-size: 50px;
+    text-align: center;
+}
+body{
+    
+    color: white;
+}
+header{
+    background-image: none;
+    padding: 20px;
+    padding: 20px 50px; 
+}

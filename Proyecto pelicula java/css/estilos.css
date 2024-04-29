@@ -1,0 +1,217 @@
+/*ESTO ES UN COMENTARIO EN CSS
+ES MULTILINEAS
+
+SINTAXIS DE CSS::
+selector{
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;}
+    */
+    /* h1{
+        color: rgb(245, 22, 22);
+        text-align: center;
+    } */
+    /*Selectores:
+    Universal*--> selecciona a todas las etiquetas del HTML*/
+    /* Etiqueta --> selecciona a todas las etiquetas de ese tipo
+    Clase, nombreClase --> selecciona a todas las etiquetasque tengan esa clase
+    ID# nombreID --> selecciona a la etiqueta qu tenga el 
+
+        background-color: rgb(255, 127, 208);
+    }
+    .tamanioFuente20{
+        font-size: 20px;
+    }
+    .colorBlanco{
+        color: aliceblue;
+    }
+    .parrafoPiePagina{
+        background-color:rgb(255, 127, 208); 
+        font-size: 20px;color:aliceblue; 
+        text-align: justify; */
+        
+        /* La cascada dice que la ultima regla que se aplica es la que se va a mostrar
+        La especificidad mata la cascada*/
+        
+        /* h2{
+            color: blue;
+            font-size: 50px;
+            text-align: center; */
+            
+         
+        
+        .tenD{
+            color:(251,87,5);
+            font-size: 30px;
+            text-align: center;
+            background-color: grey;
+        }
+        .verH{
+            color: hs(251,87,5);
+            font-size: 30px;
+            text-align: left;
+            background-color: grey;
+        }
+
+
+        .aclaM{
+            color: (251,87,5);
+            font-size: 30px;
+            text-align: center;
+            background-color: grey;
+        }
+        .reG{
+            color: (251,87,5);
+            font-size: 30px;
+            text-align: center;
+            background-color: grey;
+        }
+
+        .reG{
+            color: beige;
+            font-size: 30px;
+            text-align: center;
+        }
+        
+        .Anterior{
+            color: rgb(255,255,255); 
+            font-size: 20px;
+            margin: 0.5rem;
+            text-align: justify;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            background-color: brown;
+            padding: 5px;
+            text-decoration: none;
+        
+        }
+        .Siguiente{
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            margin: 0.5rem;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            background-color: brown;
+            padding:5px ;
+            text-decoration: none;    
+        }
+      
+        .principal{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            background-image: url(../assets/img/imagen\ fondo\ pantalla\ full.webp);
+            background-size: cover;   
+            background-repeat: no-repeat;
+            background-position: center; 
+            width: 100%;  
+            height: 50vh;    
+        }
+
+        .titulo{
+            max-width: 35rem;
+            color: rgb(4, 4, 4);
+            font-size: 55px;
+            text-align: center;
+        }
+
+        .registrarse{
+            font-size: 20px;background-color: rgb(165,42,42);
+            text-decoration: none;
+            display: flex;
+            align-items: end;
+            text-align: center;
+            float: right;
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            padding: 8px;
+            margin: 3px;
+            
+            
+        }
+        
+        /* a .registrarse{
+            font-size: 15px;
+            height: 20px;
+            display: flex;
+            text-align: end;
+            text-align: left;
+           
+        } */
+
+        /*El contenedor padre indica la direccion de como ubicar a su hijo en la alineacion*/
+        
+        /* .h1{
+            color: blue;
+            font-size: 80px;
+            text-align: center;
+        } */
+
+    
+        /*Eliminar las bolitas de las listas desordenadas*/
+        ul{
+            display: flex;            
+            list-style: none;
+        }
+
+        /*Eliminar viñetas*/
+        li a {
+            text-decoration: none;
+            margin: 0.5rem;
+            color: white;
+            display: flex;
+            justify-content: center;
+            border: solid 1px;
+            border-radius: 5px;
+            margin: 4px;
+            padding: 12px;
+            
+            /* list-style: none; */
+        }
+
+        /* li a:hover{
+            background-color: white;
+            color:brown;
+        } */
+
+        a:hover,button:hover, li a:hover{
+            background-color: white;
+            color:brown; 
+        }
+
+        nav{
+            display: flex; /*Es una propiedad que habilita la configuracion para alinear el contenido*/
+            justify-content: space-between;
+            background-color: brown;
+        }
+        
+        /* .principal{
+            background-image: url("../assets/img/imagen\ fondo\ de\ proyecto.webp");
+
+        } */
+
+        
+        @media screen and (max-width: 480px) {
+
+            nav{
+                display: flex;
+                justify-content: center;
+                background-color: aquamarine;
+            }
+          
+        }
+        .terminos{
+            color: black;
+            font-size: 10px;
+            text-align: left;
+        }
+        .redes{
+            color: black;
+            font-size: 10px;
+            text-align: left;
+        }
